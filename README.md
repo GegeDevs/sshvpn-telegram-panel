@@ -1,31 +1,31 @@
 # SSH/VPN Telegram Panel
-Telegram Bot terintegrasi dengan [SSH/VPN Script](https://github.com/GegeDesembri/sshvpn-script)
+Telegram Bot terintegrasi dengan [SSH/VPN Script](https://github.com/GegeDevs/sshvpn-script)
 
 ## Docs Index
 
-> [**Docs Index**](https://github.com/GegeDesembri/sshvpn-telegram-panel#docs-index)
+> [**Docs Index**](https://github.com/GegeDevs/sshvpn-telegram-panel#docs-index)
 
-> [**Daftar Fitur**](https://github.com/GegeDesembri/sshvpn-telegram-panel#daftar-fitur)
+> [**Daftar Fitur**](https://github.com/GegeDevs/sshvpn-telegram-panel#daftar-fitur)
 
-> [**Install Bot Menu**](https://github.com/GegeDesembri/sshvpn-telegram-panel#install-bot-menu)
+> [**Install Bot Menu**](https://github.com/GegeDevs/sshvpn-telegram-panel#install-bot-menu)
 
-> [**Usage**](https://github.com/GegeDesembri/sshvpn-telegram-panel#usage)
-- [Melihat Profile ID](https://github.com/GegeDesembri/sshvpn-telegram-panel#melihat-profile-id)
-- [Pesan Selamat Datang](https://github.com/GegeDesembri/sshvpn-telegram-panel#pesan-selamat-datang)
-- [Pilihan Tunnel Main Menu](https://github.com/GegeDesembri/sshvpn-telegram-panel#pilihan-tunnel-main-menu)
-- [Daftar Server](https://github.com/GegeDesembri/sshvpn-telegram-panel#daftar-server)
-- [Informasi Tunnel](https://github.com/GegeDesembri/sshvpn-telegram-panel#informasi-tunnel)
-- [Mengatur Harga Buyer](https://github.com/GegeDesembri/sshvpn-telegram-panel#mengatur-harga-buyer)
-- [Mengatur Harga Reseller](https://github.com/GegeDesembri/sshvpn-telegram-panel#mengatur-harga-reseller)
-- [Harga per Server](https://github.com/GegeDesembri/sshvpn-telegram-panel#harga-per-server)
-- [Batas Jumlah akun](https://github.com/GegeDesembri/sshvpn-telegram-panel#batas-jumlah-akun)
-- [Role Level](https://github.com/GegeDesembri/sshvpn-telegram-panel#role-level)
-- [Notes](https://github.com/GegeDesembri/sshvpn-telegram-panel#notes)
-- [Melihat Log](https://github.com/GegeDesembri/sshvpn-telegram-panel#melihat-log)
+> [**Usage**](https://github.com/GegeDevs/sshvpn-telegram-panel#usage)
+- [Melihat Profile ID](https://github.com/GegeDevs/sshvpn-telegram-panel#melihat-profile-id)
+- [Pesan Selamat Datang](https://github.com/GegeDevs/sshvpn-telegram-panel#pesan-selamat-datang)
+- [Pilihan Tunnel Main Menu](https://github.com/GegeDevs/sshvpn-telegram-panel#pilihan-tunnel-main-menu)
+- [Daftar Server](https://github.com/GegeDevs/sshvpn-telegram-panel#daftar-server)
+- [Informasi Tunnel](https://github.com/GegeDevs/sshvpn-telegram-panel#informasi-tunnel)
+- [Mengatur Harga Buyer](https://github.com/GegeDevs/sshvpn-telegram-panel#mengatur-harga-buyer)
+- [Mengatur Harga Reseller](https://github.com/GegeDevs/sshvpn-telegram-panel#mengatur-harga-reseller)
+- [Harga per Server](https://github.com/GegeDevs/sshvpn-telegram-panel#harga-per-server)
+- [Batas Jumlah akun](https://github.com/GegeDevs/sshvpn-telegram-panel#batas-jumlah-akun)
+- [Role Level](https://github.com/GegeDevs/sshvpn-telegram-panel#role-level)
+- [Notes](https://github.com/GegeDevs/sshvpn-telegram-panel#notes)
+- [Melihat Log](https://github.com/GegeDevs/sshvpn-telegram-panel#melihat-log)
 
-> [**Admin Panel**](https://github.com/GegeDesembri/sshvpn-telegram-panel#admin-panel)
+> [**Admin Panel**](https://github.com/GegeDevs/sshvpn-telegram-panel#admin-panel)
 
-> [**Catatan**](https://github.com/GegeDesembri/sshvpn-telegram-panel#catatan)
+> [**Catatan**](https://github.com/GegeDevs/sshvpn-telegram-panel#catatan)
 
 ## Daftar Fitur
 - **Payment Integration**: Terintegrasi dengan [Tripay Payment Gateway](https://tripay.co.id/member/)
@@ -46,7 +46,7 @@ Telegram Bot terintegrasi dengan [SSH/VPN Script](https://github.com/GegeDesembr
 **Command**
 
 ```shell
-wget -q -O "/usr/local/bin/bot-menu" "https://raw.githubusercontent.com/GegeDesembri/sshvpn-telegram-panel/master/tools/bot-menu.sh" && \
+wget -q -O "/usr/local/bin/bot-menu" "https://raw.githubusercontent.com/GegeDevs/sshvpn-telegram-panel/master/tools/bot-menu.sh" && \
 chmod +x "/usr/local/bin/bot-menu" && \
 bot-menu
 ```
@@ -113,7 +113,7 @@ server_23.212.33.44_22_root_PASSWORDNYA_OVH Cloud_SG
 Batas Maksimal karakter dari `callback_data` adalah 64 karakter. Jadi pastikan panjang keseluruhan dari `callback_data` tidak lebih dari 64 karakter. Pada contoh diatas `server_23.212.33.44_22_root_PASSWORDNYA_OVH Cloud_SG` terdiri dari 52 karakter.
     
 
-Untuk lebih jelasnya silahkan kamu lihat contoh filenya disini [Server List JSON](https://github.com/GegeDesembri/sshvpn-telegram-panel/blob/master/example/server_list.json).
+Untuk lebih jelasnya silahkan kamu lihat contoh filenya disini [Server List JSON](https://github.com/GegeDevs/sshvpn-telegram-panel/blob/master/example/server_list.json).
 
 ### Informasi Tunnel
 
@@ -433,5 +433,5 @@ Telegram Bot ini memiliki Admin Panel. Kamu dapat masuk ke dalam mode Admin Acce
 
 - Pembayaran yang didukung hanya [Tripay](https://tripay.co.id/).
 - Jangan lupa untuk memasukkan IP Server Telegram Bot pada IP Whitelist di [Tripay Merchant](https://tripay.co.id/member/merchant)
-- Server yang masuk dalam bot ini wajib menggunakan script [SSH/VPN Script](https://github.com/GegeDesembri/sshvpn-script). Jika tidak, maka server tidak akan merespon.
+- Server yang masuk dalam bot ini wajib menggunakan script [SSH/VPN Script](https://github.com/GegeDevs/sshvpn-script). Jika tidak, maka server tidak akan merespon.
 - Pengaturan diawal cukup rumit. Jika butuh bantuan penginstallan silahkan chat [Admin](https://t.me/GegeVPS)
